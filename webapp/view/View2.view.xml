@@ -1,0 +1,10 @@
+<mvc:View controllerName="fiori.fundamentos.controller.View2"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page2">
+        <content>
+            <Text text="{dados>name}" />
+        </content>
+    </Page>
+</mvc:View>
